@@ -51,6 +51,22 @@ form {
   background-color: #000;
   color: #fff;
 }
+#output{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#output span{
+  display: block;
+  min-width: fit-content;
+  max-width: 25%;
+  background-color: white;
+  margin: 0;
+  outline: 0;
+  font-size: 1.1em;
+  padding: 20px;
+
+}
 
 /* Tablet */
 @media screen and (min-width: 768px) {
