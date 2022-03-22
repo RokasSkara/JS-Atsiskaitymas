@@ -21,7 +21,7 @@ const users = [
 ];
 
 let getUserAverageAge = (arr) => {
-  let x =arr.map(user => user.age).reduce((a,b) => a+b,0)/arr.length
+  let x = arr.map(user => user.age).reduce((a, b) => a + b, 0) / arr.length
   return x.toFixed(2)
 }
 
