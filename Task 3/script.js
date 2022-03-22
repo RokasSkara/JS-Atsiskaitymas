@@ -14,13 +14,10 @@ const ENDPOINT = 'https://api.github.com/users';
 
 document.querySelector('#btn').addEventListener('click', (e) => {
     output = document.querySelector('#output')
-    fetch('https://api.github.com/users')
+    fetch(ENDPOINT)
         .then(res => res.json())
         .then(data => createCard(data))
-
     e.target.classList.add('none') // hiding button
-
-
 })
 
 let createCard = (data) => {
